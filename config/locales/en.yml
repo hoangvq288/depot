@@ -24,4 +24,6 @@ en:
   message:
     validate:
       image_url: "must be a URL for GIF, JPG, JPEG or PNG image."
+  title:
+    page: Pragmatic Bookshelf
 
