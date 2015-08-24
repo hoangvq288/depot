@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Depot</title>
+  <title><%= t('depot') %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -14,10 +14,10 @@
   <div id="columns">
     <div id="side">
       <ul>
-        <li><a href="http://www....">Home</a></li>
-        <li><a href="http://www..../faq">Questions</a></li>
-        <li><a href="http://www..../news">News</a></li>
-        <li><a href="http://www..../contact">Contact</a></li>
+        <li><a href="http://www...."><%= t('nav.home') %></a></li>
+        <li><a href="http://www..../faq"><%= t('nav.questions') %></a></li>
+        <li><a href="http://www..../news"><%= t('nav.news') %></a></li>
+        <li><a href="http://www..../contact"><%= t('nav.contact') %></a></li>
       </ul>
     </div>
     <div id="main">

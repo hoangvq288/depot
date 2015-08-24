@@ -26,4 +26,13 @@ en:
       image_url: "must be a URL for GIF, JPG, JPEG or PNG image."
   title:
     page: Pragmatic Bookshelf
+    catalog: Your Pragmatic Catalog
+    new_product: New Product
+  depot: Depot
+  nav:
+    home: Home
+    questions: Questions
+    news: News
+    contact: Contact
+
 
