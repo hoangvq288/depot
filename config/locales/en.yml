@@ -24,6 +24,8 @@ en:
   message:
     validate:
       image_url: "must be a URL for GIF, JPG, JPEG or PNG image."
+    order_details: Please Enter Your Details
+
   title:
     page: Pragmatic Bookshelf
     catalog: Your Pragmatic Catalog
@@ -34,5 +36,8 @@ en:
     questions: Questions
     news: News
     contact: Contact
-
+  order:
+    create: Order was successfully created. Thank you for your order
+    update: Order was successfully updated.
+    destroy: Order was successfully destroyed.
 
